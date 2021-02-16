@@ -1,0 +1,39 @@
+ 
+
+.back {
+    background-color: #09143B;
+}
+
+.back .container {
+    position: relative;
+}
+
+.circle-1 {
+    position: absolute;
+    left: -10%;
+}
+
+.circle-2 {
+    position: absolute;
+    top: 0;
+    right: -10%;
+}
+
+.album__title {
+    font-weight: bold;
+}
+
+.album__text {
+    font-size: 18px;
+}
+
+.album__button {
+    color: white;
+    font-size: 17px;
+    transition: background .5s, color .3s;
+}
+
+.album__button:hover {
+    background-color: white;
+    color: black;
+}

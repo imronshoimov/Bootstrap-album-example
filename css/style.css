@@ -48,3 +48,9 @@ body {
     background-color: white;
     color: black;
 }
+
+@media (max-width: 950px){
+    .circle-1, .circle-2 {
+        display: none;
+    }
+}

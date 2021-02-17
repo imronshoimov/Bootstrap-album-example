@@ -15,6 +15,10 @@ body {
     background-color: #09143B;
 }
 
+.nav {
+    z-index: 2;
+}
+
 .back .container {
     position: relative;
 }
@@ -23,12 +27,14 @@ body {
     position: absolute;
     left: -10%;
     bottom: 0;
+    z-index: 1;
 }
 
 .circle-2 {
     position: absolute;
     top: 0;
     right: -7.5%;
+    z-index: 1;
 }
 
 .album__title {

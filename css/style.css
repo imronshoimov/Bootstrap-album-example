@@ -96,6 +96,10 @@ body {
     transform: translateY(-100%);
 }
 
+.footer__text {
+    font-size: 17px;
+}
+
 @media (max-width: 950px){
     .circle-1, .circle-2 {
         display: none;
